@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="SIMON SEIN - Creative Programar: Jesus Antonio Esquivel Henao">
+    <meta name="copyright" content="Colsubsidio">
+    <meta name="description" lang="es" content="Sitio Oficial, Colsubsidio">
+    <meta lang="es" name="keywords" content="Colsubsidio, falta palabras claves">
+    <title>Colsubsidio - Inicio</title>
+    <script type="text/javascript" src="source.js"> </script>
+    <link rel="stylesheet" href="css/superfish.css" media="screen">
+		<script src="scripts/menu/jquery-1.9.0.min.js"></script>
+		<script src="scripts/menu/hoverIntent.js"></script>
+		<script src="scripts/menu/superfish.js"></script>
+    <!-- REQUIRED FOR PARALLAX -->
+    <script type="text/javascript" language="JavaScript" src="scripts/parrallax/jquery.jparallax.min.js" ></script>
+    <script type="text/javascript" language="JavaScript" src="scripts/parrallax/jquery.event.frame.js" ></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function() 
+    {
+      $('#parallax .parallax-layer')
+      .parallax({
+        mouseport: $('#parallax')
+      });
+      jQuery('.parallax-layer')
+      .parallax({xparallax: '100px'}, {xparallax: '300px'})
+      .parallax({yparallax: '0px'}, {yparallax: '0px'})
+      
+      // redireccionamiento
+      $().ready(function(){          
+        setTimeout(function() {
+         window.location.href = "menuPage.html";
+        }, 5000);        
+      });
+      
+      // animacion logo intro
+    setTimeout(function(){
+      $(".parallax01").animate({ marginTop: "250px"},'slow', 'swing');
+    },500);
+    
+    });
+    </script>
+  </head>
+  <body id="home">
+    <div id="container">
+      <script type="text/javascript" src="header.js"> </script>
+      <script type="text/javascript" src="menuPrincipal.js"> </script>
+      <!-- REQUIRED FOR PARALLAX -->
+      <div id="parallax" class="clear parallax01">
+        <div class="parallax-layer logo01" style="width:498px; height:138px;">
+          <img src="images/logo_intro.png" alt="" style="width:498px; height:138px;"/>
+        </div>
+        <div class="parallax-layer logo02" style="width:400px; height:64px;">
+          <img src="images/subtext_intro.png" alt="" style="width:400px; height:64px;"/>
+        </div>
+      </div>
+      <!-- /REQUIRED FOR PARALLAX -->
+      <div id="footer">
+        <script type="text/javascript" src="footer.js"> </script>
+      </div>
+    </div>
+  </body>
+</html>
