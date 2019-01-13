@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="SIMON SEIN - Creative Programar: Jesus Antonio Esquivel Henao">
+    <meta name="copyright" content="Colsubsidio">
+    <meta name="description" lang="es" content="Sitio Oficial, Colsubsidio">
+    <meta lang="es" name="keywords" content="Colsubsidio, falta palabras claves">
+    <title>Colsubsidio - Inicio</title>
+    <script type="text/javascript" src="source.js"> </script>
+    <link rel="stylesheet" href="css/superfish.css" media="screen">
+		<script src="scripts/menu/jquery-1.9.0.min.js"></script>
+		<script src="scripts/menu/hoverIntent.js"></script>
+		<script src="scripts/menu/superfish.js"></script>
+    <!-- REQUIRED FOR PARALLAX -->
+    <script type="text/javascript" language="JavaScript" src="scripts/parrallax/jquery.jparallax.min.js" ></script>
+    <script type="text/javascript" language="JavaScript" src="scripts/parrallax/jquery.event.frame.js" ></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function() 
+    {
+      $('#parallax .parallax-layer')
+      .parallax({
+        mouseport: $('#parallax')
+      });
+      jQuery('.parallax-layer')
+      .parallax({xparallax: '50px'})
+      .parallax({yparallax: '0px'})
+    });
+    </script>
+  </head>
+  <body id="menuPage">
+    <div id="container" style="position: relative; z-index: 2">
+            <!-- REQUIRED FOR PARALLAX -->
+      <div id="parallax" class="clear parralax02">
+        <div class="parallax-layer foto01" style="width:203px; height:53px;">
+          <img src="images/logoColsubsidio.png" alt="" style="width:203px; height:53px;"/>
+        </div>
+      </div>
+      <!-- /REQUIRED FOR PARALLAX -->
+      <div id="mainMenu">
+        <ul class="sf-menu" id="menuSuperior">
+          <li class="btnPrincipal btnPrincipal01">
+            <a href="#">EDUCACIÓN BÁSICA<br>Y MEDIA</a>
+            <ul class="dropDown">
+              <li><a href="descripcion_eduBasica.html">- DESCRIPCIÓN</a></li>
+              <li><a href="jardines_sociales.html">- JARDINES SOCIALES</a></li>
+              <li><a href="programas_1infancia.html">- PROGRAMAS 1RA INFANCIA</a></li>
+              <li><a href="ludotecas.html">- LUDOTECAS</a></li>
+              <li><a href="colegios_colsubsidio.html">- COLEGIOS COLSUBSIDIO</a></li>
+              <li><a href="bachillerato_adultos.html">- BAC - BACHILLERATO ADULTOS</a></li>
+              <li><a href="pre_icfes.html">- PRE - ICFES</a></li>
+            </ul>
+          </li>
+          <li class="btnPrincipal btnPrincipal02">
+            <a href="#">EDUCACIÓN CONTINUADA</a>
+            <ul class="dropDown">
+              <li><a href="descripción_eduContinua.html">- DESCRIPCIÓN</a></li>
+              <li><a href="cursos_libres.html">- CURSOS LIBRES</a></li>
+              <li><a href="desarrollo_personalFamiliar.html">- DESARROLLO PERSONAL <br><span style="padding: 1px;">&nbsp;</span> Y FAMILIAR</a></li>
+              <li><a href="desarrollo_empresarial.html">- DESARROLLO  EMPRESARIAL</a></li>
+              <li><a href="re_insercion_mundo_del_trabajo.html">- (RE)INSERCIÓN EN <br><span style="padding: 2px;">&nbsp;</span>EL MUNDO DEL TRABAJO</a></li>
+              <li><a href="gestion_social_comunitaria.html">- GESTIÓN SOCIAL Y <br><span style="padding: 2px;">&nbsp;</span>COMUNITARIA</a></li>
+              <li><a href="pensionados_adultos_mayores.html">- PROGRAMA PENSIONADOS <br><span style="padding: 2px;">&nbsp;</span>Y ADULTOS MAYORES</a></li>
+              <li><a href="alianzas_educativas.html">- ALIANZAS EDUCATIVAS</a></li>
+            </ul>
+          </li>
+          <li class="btnPrincipal btnPrincipal03">
+            <a href="#">CULTURA</a>
+            <ul class="dropDown">
+              <li><a href="descripcion_cultura.html">- DESCRIPCIÓN</a></li> 
+              <li><a href="tienda_de_arte.html">- TIENDA DE ARTE</a></li>
+              <li><a href="red_bibliotecas.html">- RED DE BIBLIOTECAS</a></li>
+							<li><a href="museo_de_los_niños.html">- MUSEO DE LOS NIÑOS</a></li>
+							<li><a href="teatro_colsubsidio.html">- TEATRO COLSUBSIDIO R.A.P.</a></li>
+							<li><a href="museo_de_arte.html">- MUSEO DE ARTE</a></li>
+            </ul>
+          </li>
+          <li class="btnPrincipal btnPrincipal04">
+            <a href="#">CET</a>
+            <ul class="dropDown">
+              <li><a href="descripcion_cet.html">- DESCRIPCIÓN</a></li>
+							<li><a href="programas_cet.html">- PROGRAMAS</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div id="footer">
+        <script type="text/javascript" src="footer.js"> </script>
+      </div>
+    </div>
+  </body>
+</html>

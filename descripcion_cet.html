@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="SIMON SEIN - Creative Programar: Jesus Antonio Esquivel Henao">
+    <meta name="copyright" content="Colsubsidio">
+    <meta name="description" lang="es" content="Sitio Oficial, Colsubsidio">
+    <meta lang="es" name="keywords" content="Colsubsidio, falta palabras claves">
+    <title>Colsubsidio - CET</title>
+    <script type="text/javascript" src="source.js"> </script>
+    <link rel="stylesheet" href="css/superfish.css" media="screen">
+		<script src="scripts/menu/jquery-1.9.0.min.js"></script>
+		<script src="scripts/menu/hoverIntent.js"></script>
+		<script src="scripts/menu/superfish.js"></script>
+    <!-- cufon -->
+    <script src="scripts/jquery.ez-bg-resize.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      $(document).ready(function() {
+        $("body").ezBgResize({
+          img     : "images/multimedia_cet.jpg", // Relative path example.  You could also use an absolute url (http://...).
+          opacity : 1, // Opacity. 1 = 100%.  This is optional.
+          center  : false // Boolean (true or false). This is optional. Default is true.
+        });
+      });
+    </script>
+    <!-- REQUIRED FOR PARALLAX -->
+    <script type="text/javascript" language="JavaScript" src="scripts/parrallax/jquery.jparallax.min.js" ></script>
+    <script type="text/javascript" language="JavaScript" src="scripts/parrallax/jquery.event.frame.js" ></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function() 
+    {
+      $('#parallax .parallax-layer')
+      .parallax({
+        mouseport: $('#parallax')
+      });
+      jQuery('.parallax-layer')
+      .parallax({xparallax: '200px'})
+     .parallax({yparallax: '50px'})
+    });
+    </script>
+  </head>
+  <body>
+    <div id="container" style="position: relative; z-index: 2">
+      <script type="text/javascript" src="header.js"> </script>
+			<script type="text/javascript" src="menuPrincipal.js"> </script>
+			<div id="contenido" style="width: 600px; height: 400px; margin: 50px 0 0 0;">
+				<p>
+					COLSUBSIDIO y la Compañía Europea de Defensa Aeronáutica y del Espacio –EADS- se han unido para crear una nueva dimensión en  la educación superior dirigida a la formación del sector empresarial de capital humano de calidad bajo un enfoque de desarrollo humano integral y pertinencia frente a las necesidades del sector productivo.   <br><br>
+          
+La Corporación como institución de educación superior está comprometida con la formación de personas: Profesionales excelentes, autónomos, emprendedores y éticos, a través de programas pertinentes, acorde a las necesidades de los sectores productivos, orientados al desarrollo de competencias, con una rápida salida al mundo laboral y enmarcados en el desarrollo humano integral, con el propósito de contribuir a satisfacer las necesidades de formación de la población así como el desarrollo económico, social y cultural del país.  A su vez, contamos con alta capacidad de respuesta a las necesidades de formación del talento humano, directamente y con nuestros aliados; desarrollando soluciones a la medida, que permitan a las empresas generar valor agregado para sus grupos de interés y mejorar su rentabilidad a partir de servicios de asesoría, consultoría y capacitaciones para todos los niveles de la organización según sus necesidades.  <br><br>
+
+Oferta Académica:    Técnico Profesional en Soporte de Infraestructuras Informáticas y Redes de Datos Código SNIES  No. 91399    Tecnología en Gestión de Infraestructuras de Tecnologías de Información y Comunicaciones Código SNIES No. 9139    Técnico Profesional en Soporte de Calidad, Seguridad y Ambiente Código SNIES  No. 91400
+				</p>
+			</div>
+      <!-- REQUIRED FOR PARALLAX -->
+			<div id="parallax" class="clear" style="height:500px; width: 600px; right: 0;">
+				<div class="parallax-layer foto03" style="width:400px; height:600px; bottom: 500px">
+					<img src="images/multimedia_cet03.png" alt="" style="width:400px; height:600px;"/>
+				</div>
+			</div>
+			<!-- /REQUIRED FOR PARALLAX -->
+			<div id="footer">
+        <script type="text/javascript" src="footer.js"> </script>
+      </div>
+    </div>
+  </body>
+</html>

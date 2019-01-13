@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="SIMON SEIN - Creative Programar: Jesus Antonio Esquivel Henao">
+    <meta name="copyright" content="Colsubsidio">
+    <meta name="description" lang="es" content="Sitio Oficial, Colsubsidio">
+    <meta lang="es" name="keywords" content="Colsubsidio, falta palabras claves">
+    <title>Colsubsidio - EDUCACIÓN BÁSICA Y MEDIA</title>
+    <script type="text/javascript" src="source.js"> </script>
+    <link rel="stylesheet" href="css/superfish.css" media="screen">
+		<script src="scripts/menu/jquery-1.9.0.min.js"></script>
+		<script src="scripts/menu/hoverIntent.js"></script>
+		<script src="scripts/menu/superfish.js"></script>
+    <!-- cufon -->
+    <script src="scripts/jquery.ez-bg-resize.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      $(document).ready(function() {
+        $("body").ezBgResize({
+          img     : "images/F8-03.png", // Relative path example.  You could also use an absolute url (http://...).
+          opacity : 1, // Opacity. 1 = 100%.  This is optional.
+          center  : false // Boolean (true or false). This is optional. Default is true.
+        });
+      });
+    </script>
+    <!-- REQUIRED FOR PARALLAX -->
+    <script type="text/javascript" language="JavaScript" src="scripts/parrallax/jquery.jparallax.min.js" ></script>
+    <script type="text/javascript" language="JavaScript" src="scripts/parrallax/jquery.event.frame.js" ></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function() 
+    {
+      $('#parallax .parallax-layer')
+      .parallax({
+        mouseport: $('#parallax')
+      });
+      jQuery('.parallax-layer')
+      .parallax({xparallax: '50px'}, {xparallax: '300px'})
+    });
+    </script>
+  </head>
+  <body>
+    <div id="container" style="position: relative; z-index: 2">
+      <script type="text/javascript" src="header.js"> </script>
+			<script type="text/javascript" src="menuPrincipal.js"> </script>
+			<div id="contenido">
+				<p>
+					
+Colsubsidio ofrece educación de calidad en los niveles inicial, básica y media, para la formación integral de personas con competencias sociales, intelectuales y productivas, constructoras de su proyecto de vida y de una sociedad mas solidaria, armónica y equitativa .
+</p>
+<br>
+<strong>RECONOCIMIENTOS</strong>
+<br>
+
+<ul class="listaDesordenada">
+	<li>Medalla de Oro Galardón a la Excelencia 2010 : Colegio Chicalá</li>
+	<li>Maestro finalista nominado en el Premio Compartir al Maestro</li>
+	<li>
+		<strong>Resultados del Icfes:</strong><br>
+		* Nivel Muy Superior : Colegio Fundación Colombia, Colegio Colsubsidio Ciudadela , Colegio Colsubsidio Norte, Colegio ICEF, <br>Colegio Colsubsidio Chicalá<br>
+		* Nivel Superior : Colegio Colsubsidio San Vicente<br><br>
+		* Nivel Alto : Colegio Colsubsidio Las Mercedes , Colegio Colsubsidio Torquigua,  Colegio Colsubsidio Nueva Roma, CEIS Sopo<br>
+		* Nivel Medio : Colegio Colsubsidio  San Cayetano<br>
+		* Mejor resultado del Municipio y del Departamento : CEIS Sopo
+	</li>
+	<li>Recertificación ISO 9001 a los colegios propios</li>
+	<li>Reconocimiento al Colegio Colsubsidio Ciudadela por Best Bodies</li>
+	<li>Primer puesto Universidad Distrital Robot al Parque Las Mercedes</li>
+	<li>Segundo puesto Universidad Nacional Unirobot Las Mercedes</li>
+</ul>
+				
+			</div>
+      <!-- REQUIRED FOR PARALLAX -->
+			<div id="parallax" class="clear">
+				<div class="parallax-layer foto01" style="width:450px; height:332px;">
+					<img src="images/F8-01.png" alt="" style="width:450px; height:332px;"/>
+				</div>
+				<div class="parallax-layer foto02" style="width:1000px; height:307px;">
+					<img src="images/F8-02.png" alt="" style="width:1000px; height:307px;"/>
+				</div>
+			</div>
+			<!-- /REQUIRED FOR PARALLAX -->
+			<div id="footer">
+        <script type="text/javascript" src="footer.js"> </script>
+      </div>
+    </div>
+  </body>
+</html>

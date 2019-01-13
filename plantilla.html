@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="SIMON SEIN - Creative Programar: Jesus Antonio Esquivel Henao">
+    <meta name="copyright" content="Colsubsidio">
+    <meta name="description" lang="es" content="Sitio Oficial, Colsubsidio">
+    <meta lang="es" name="keywords" content="Colsubsidio, falta palabras claves">
+    <title>Colsubsidio - cambiar_titulo</title>
+    <script type="text/javascript" src="source.js"> </script>
+    <!--  background image script  -->
+    <script src="scripts/jquery.ez-bg-resize.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      $(document).ready(function() {
+        $("body").ezBgResize({
+          img     : "contenidos/jardines_sociales/eduBasico.jpg", // imagen de fondo...
+          opacity : 1, // Opacity. 1 = 100%.  This is optional.
+          center  : false // Boolean (true or false). This is optional. Default is true.
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="container">
+      <script type="text/javascript" src="header.js"> </script>
+			<script type="text/javascript" src="menuPrincipal.js"> </script>
+      <div id="vtabs1">
+        <div id="btnTabs">
+          <h1>cambiar_titulo</h1>
+          <ul>
+            <li><a href="#vtabs-content-invible" style="visibility: hidden">INVIBLE</a></li>
+            <li><a href="#vtabs-content-a">DESCRIPCIÓN</a></li>
+            <li><a href="#vtabs-content-b">VIDEO</a></li>
+            <li><a href="#vtabs-content-c">GALERÍA</a></li>
+            <li><a href="#vtabs-content-d">LOCALIZACIÓN</a></li>
+            <li><a href="#vtabs-content-e">CONTACTO</a></li>
+          </ul>
+        </div>
+        <div>
+          <div id="#vtabs-content-invible" style="visibility: hidden">
+            <div class="content">
+            </div>	
+          </div>
+          <div id="#vtabs-content-a">
+            <div class="content" >
+              <div id="contenido" class="tabContent">
+              <p>
+                <!--  texto de descripcion -->
+                texto descripción aqui...
+              </p>
+            </div>
+            </div>	
+          </div>
+          <div id="#vtabs-content-b">
+            <div class="content content02 video">
+              <!--  video aqui -->
+              <OBJECT CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"
+              CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab" width="500" height="375" >
+								<PARAM NAME="src" VALUE="videos/videoTEKTO_Flores.mp4" >
+								<PARAM NAME="autoplay" VALUE="true" >
+								<PARAM NAME="wmode" VALUE="transparent" >
+								<EMBED SRC="videos/videoTEKTO_Flores.mp4" TYPE="image/x-macpaint"
+								PLUGINSPAGE="http://www.apple.com/quicktime/download" wmode="transparent" width="500" height="375" AUTOPLAY="false"></EMBED>
+							</OBJECT>
+            </div>	
+          </div>
+          <div id="#vtabs-content-c">
+            <div class="content">
+              <!--  galeria de imagenes -->
+              <ul id="mycarousel" class="jcarousel-skin-tango">
+                
+                <li>
+                  <a href="contenidos/nombre_carpeta/img01.jpg" rel="sexylightbox[group1]" title="Colsubsidio - cambiar_titulo">
+                    <img src="contenidos/nombre_carpeta/img01.jpg" width="110" height="124" alt="" border=" 0" />
+                  </a>
+                </li>
+                
+              </ul>
+            </div>	
+          </div>
+          <div id="#vtabs-content-d">
+            <div class="content content02">
+              <img src="images/mapa_jardines.png" width="500" height="375" alt="" class="mapa">
+            </div>	
+          </div>
+          <div id="#vtabs-content-e">
+            <div class="content">
+               <div id="contenido" class="tabContent content03">
+                <!--  texto de contacto -->
+                <p>
+                  texto de contacto...
+                </p>
+              </div>
+            </div>	
+          </div>
+          
+        </div>
+      </div>
+			<div id="footer">
+        <script type="text/javascript" src="footer.js"> </script>
+      </div>
+    </div>
+  </body>
+</html>
